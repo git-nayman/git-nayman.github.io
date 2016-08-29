@@ -1,13 +1,172 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
+
 	<meta charset="UTF-8">
-	<title>Exemplary</title>
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Short Description of the Page"> <!--Edit before distribution-->
+
+	<title>Document</title>
+
+	<!--For IE 10 and below  place favicon.ico file in the root directory-->
+	<link rel="icon" href="img/favicon/favicon-16.png" sizes="16x16" type="image/png">
+	<link rel="icon" href="img/favicon/favicon-32.png" sizes="32x32" type="image/png">
+	<link rel="icon" href="img/favicon/favicon-196.png" sizes="196x196" type="image/png">
+	
+	<!--Stylesheets-->
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+	
+	<!--html5shiv-->
+	<!--[if lt IE 9]>
+		<script src="libs/html5shiv.min.js"></script>
+	<![endif]-->
+
 </head>
 <body>
-	<h1>Test_subject_git-mastering</h1>
-	<p>Some text</p>
-	<a href="http://google.com">aLink</a>
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam voluptas perferendis eaque labore hic, quam pariatur dicta facilis officiis magnam repudiandae omnis officia saepe expedita cumque adipisci accusantium aspernatur at laboriosam rem et. Aliquid error nobis optio ipsa reiciendis. Maiores exercitationem excepturi quidem a sequi doloribus praesentium, facere corporis numquam.</p>
+
+	<!--HEADER-->
+	<header>
+		<a href="#">Nayman</a>
+		<div class="header-contact">
+			<a href="mailto:sergey.nayman@yandex.ru">
+				<img src="img/mailto.png" alt="отправьте письмо">
+				<span>sergey.nayman@yandex.ru</span>
+			</a>
+		</div>
+	</header>
+
+	<!--CAROUSEL-->
+	<aside class="samples">
+		<div class="samples-arrow arrow--left"><!--Arrow left--></div> 
+		<div class="samples-arrow arrow--right"><!--Arrow right--></div> 
+
+		<!--Slide 1-->
+		<div class="samples-sample">
+			<a href="html/sample_1/index.html">Славич-95</a>
+			<div class="sample-item item--lg" id="sample1lg">
+				<iframe scrolling="no" src="html/sample_1/index.html"></iframe>
+			</div>
+			<div class="sample-item item--md">
+				<iframe scrolling="no" src="html/sample_1/index.html"></iframe>
+			</div>
+			<div class="sample-item item--sm" id="sample1sm">
+				<iframe scrolling="no" src="html/sample_1/index.html"></iframe>
+			</div>
+		</div>
+
+		<!--Slide 2-->
+		<div class="samples-sample hidden">
+			<a href="html/sample_2/index.html">Blocco AMP</a>
+			<div class="sample-item item--lg" id="sample2lg">
+				<iframe scrolling="no" src="html/sample_2/index.html"></iframe>
+			</div>
+		</div>
+
+		<!--Slide 3-->
+		<div class="samples-sample hidden">
+			<a href="html/sample_3/index.html">Progress Containers</a>
+			<div class="sample-item item--lg" id="sample3lg">
+				<iframe scrolling="no" src="html/sample_3/index.html"></iframe>
+			</div>
+			<div class="sample-item item--md" id="sample3md">
+				<iframe scrolling="no" src="html/sample_3/index.html"></iframe>
+			</div>
+		</div>
+
+		<!--Slide 4-->
+		<div class="samples-sample hidden">
+			<a href="html/sample_4/index.html">Boroda Design Studio</a>
+			<div class="sample-item item--lg" id="sample4lg">
+				<iframe scrolling="no" src="html/sample_4/index.html"></iframe>
+			</div>
+			<div class="sample-item item--md" id="sample4md">
+				<iframe scrolling="no" src="html/sample_4/index.html"></iframe>
+			</div>
+			<div class="sample-item item--sm" id="sample4sm">
+				<iframe scrolling="no" src="html/sample_4/index.html"></iframe>
+			</div>
+		</div>
+
+	</aside>
+
+	<!--FOOTER-->
+	<footer>
+
+		<!--Graph table-->
+		<div class="graph">
+
+			<!--Column 1-->
+			<div class="graph-column">
+				<div class="column__cell cell--ie10 cell--dark"></div>
+				<div class="column__cell cell--webk cell--dark"></div>
+				<div class="column__cell cell--mozf cell--dark"></div>
+				<div class="column__cell cell--oper cell--dark"></div>
+			</div>
+			<!--Column 2-->
+			<div class="graph-column">
+				<div class="column__cell cell--empt"></div>
+				<div class="column__cell cell--sass cell--dark"></div>
+				<div class="column__cell cell--gulp cell--dark"></div>
+				<div class="column__cell cell--gith cell--dark"></div>
+			</div>
+			<!--Column 3-->
+			<div class="graph-column">
+				<div class="column__cell cell--empt"></div>
+				<div class="column__cell cell--empt"></div>
+				<div class="column__cell cell--boot cell--dark"></div>
+				<div class="column__cell cell--flex cell--dark"></div>
+			</div>
+			<!--Column 4-->
+			<div class="graph-column">
+				<div class="column__cell cell--empt"></div>
+				<div class="column__cell cell--html cell--dark"></div>
+				<div class="column__cell cell--css3 cell--dark"></div>
+				<div class="column__cell cell--jscr cell--dark"></div>
+			</div>
+			<!--Column 5-->
+			<div class="graph-column">
+				<div class="column__cell cell--empt"></div>
+				<div class="column__cell cell--empt"></div>
+				<div class="column__cell cell--jqer cell--dark"></div>
+				<div class="column__cell cell--svgr cell--dark"></div>
+			</div>
+			<!--Column 6-->
+			<div class="graph-column">
+				<div class="column__cell cell--empt"></div>
+				<div class="column__cell cell--empt"></div>
+				<div class="column__cell cell--w3cv cell--dark"></div>
+				<div class="column__cell cell--gpsi cell--dark"></div>
+			</div>
+			<!--Column 7-->
+			<div class="graph-column">
+				<div class="column__cell cell--empt"></div>
+				<div class="column__cell cell--empt"></div>
+				<div class="column__cell cell--empt"></div>
+				<div class="column__cell cell--bems cell--dark"></div>
+			</div>
+			
+			
+			
+
+			
+			
+		</div>
+		<a href="mailto:sergey.nayman@yandex.ru">
+			<span>sergey.nayman@yandex.ru</span>
+		</a>
+	</footer>
+
+<!--Load scripts-->
+<script>
+	var scr = {"scripts":[
+		{"src" : "libs/jquery-3.1.0.min.js", "async" : false},
+		{"src" : "js/main.js", "async" : false},
+	]};
+	!function(t,n,r){"use strict";var c=function(t){if("[object Array]"!==Object.prototype.toString.call(t))return!1;for(var r=0;r<t.length;r++){var c=n.createElement("script"),e=t[r];c.src=e.src,c.async=e.async,n.body.appendChild(c)}return!0};t.addEventListener?t.addEventListener("load",function(){c(r.scripts);},!1):t.attachEvent?t.attachEvent("onload",function(){c(r.scripts)}):t.onload=function(){c(r.scripts)}}(window,document,scr);
+</script>
 </body>
 </html>

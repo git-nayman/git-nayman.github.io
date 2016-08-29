@@ -1,0 +1,621 @@
+button,
+h1 {
+    color: #fff
+}
+h2,
+h3,
+h4 {
+    color: #212121
+}
+.catalog .catalog-card .catalog-card-descr .catalog-card-descr__prop,
+.catalog .catalog-card .catalog-card-descr .catalog-card-descr__quant span,
+.catalog .catalog-card .catalog-card__calc .itemSum {
+    font-weight: 700
+}
+a,
+abbr,
+acronym,
+address,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+ul,
+var,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline
+}
+footer .footer__logo img,
+header .header-topband .header-topband__logo img {
+    vertical-align: middle
+}
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+html {
+    font-size: 62.5%
+}
+body {
+    background-color: #fafafa;
+    color: #222;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    min-width: 320px;
+    overflow-x: hidden;
+    position: relative
+}
+button {
+    border: none;
+    font-family: RobotoRegular, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-size: 1.8rem
+}
+input::-webkit-input-placeholder {
+    color: gray;
+    opacity: 1
+}
+input::-moz-placeholder {
+    color: gray;
+    opacity: 1
+}
+input:-moz-placeholder {
+    color: gray;
+    opacity: 1
+}
+input:-ms-input-placeholder {
+    color: gray;
+    opacity: 1
+}
+input:focus:required:invalid,
+input:required:valid,
+textarea:focus:required:invalid,
+textarea:required:valid {
+    color: gray
+}
+fieldset,
+form,
+input,
+textarea {
+    outline: 0
+}
+.hidden {
+    display: none
+}
+.clearfix {
+    overflow: hidden
+}
+h1,
+h2,
+h3,
+h4 {
+    font-family: RobotoBold, Arial #000, Gadget, sans-serif
+}
+header .header-topband p:nth-child(1),
+p {
+    font-family: RobotoRegular, Arial, Helvetica, sans-serif
+}
+h1 {
+    font-size: 40px;
+    font-size: 4rem
+}
+h2 {
+    font-size: 35px;
+    font-size: 3.5rem
+}
+h3,
+h4 {
+    font-size: 13px;
+    font-size: 1.3rem;
+    text-transform: uppercase
+}
+a {
+    color: #029ed9
+}
+a:visited {
+    color: #013041
+}
+a:focus,
+a:hover {
+    text-decoration: none
+}
+section h2 {
+    padding: 5rem 0;
+    text-align: center
+}
+.button {
+    border: 1px solid #fff;
+    background-color: transparent;
+    font-size: 18px;
+    font-size: 1.8rem;
+    margin-left: 2rem
+}
+.button:hover {
+    -webkit-box-shadow: 0 1px 2px 1px rgba(255, 255, 255, .4) inset;
+    box-shadow: 0 1px 2px 1px rgba(255, 255, 255, .4) inset
+}
+header {
+    margin-bottom: 4rem
+}
+header .header-topband {
+    background-color: #f4eddc;
+    color: #212121;
+    padding: 1.2rem 0 .2rem;
+    line-height: 1.4
+}
+header .header-topband .header-topband__logo img:nth-child(2) {
+    padding-left: .5rem
+}
+header .header-topband p {
+    line-height: 1
+}
+header .header-topband p:nth-child(1) {
+    font-size: 15px;
+    font-size: 1.5rem;
+    line-height: 3rem
+}
+header .header-topband .header-topband-contact .header-topband-contact__callback {
+    color: #fff;
+    background-color: #e2cfa2;
+    float: left;
+    padding: .6rem 1rem;
+    font-size: 16px;
+    font-size: 1.6rem
+}
+header .header-topband .header-topband-contact .header-topband-contact__callback:focus,
+header .header-topband .header-topband-contact .header-topband-contact__callback:hover {
+    background-color: #dcc58e
+}
+header .header-topband .header-topband-contact .header-topband-contact__phone {
+    bottom: .4rem;
+    display: inline-block;
+    margin-left: 2.8rem;
+    position: relative
+}
+header .header-topband .header-topband-contact .header-topband-contact__phone p {
+    font-family: RobotoRegular, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-size: 1rem;
+    text-align: left
+}
+header .header-topband .header-topband-contact .header-topband-contact__phone span {
+    font-family: RobotoBold, Arial #000, Gadget, sans-serif;
+    font-size: 22px;
+    font-size: 2.2rem
+}
+.consultation p,
+.manufacture .manufacture-item span {
+    font-family: RobotoRegular, Arial, Helvetica, sans-serif
+}
+
+header .header-topband .header-topband__mailto,
+header .header-topband .header-topband__phoneto {
+    float: right;
+    position: relative;
+    top: -10rem;
+}
+header .header-topband .header-topband__mailto {
+    font-size: 12px;
+    font-size: 1.2rem;
+    text-decoration: underline
+}
+header .header-topband .header-topband__phoneto {
+    font-weight: 700;
+    font-size: 12px;
+    font-size: 1.2rem;
+    text-align: left
+}
+header .header-menu {
+    background-color: #029ed9;
+    text-align: center
+}
+header .header-menu ul {
+    padding: 2.5rem 0 1rem
+}
+header .header-menu ul li {
+    display: inline-block;
+    padding-right: 2rem
+}
+header .header-menu ul li:last-child {
+    padding-right: 0
+}
+header .header-menu ul li a {
+    color: #fff
+}
+header .header-menu ul li a::after {
+    display: block;
+    content: "";
+    height: 1.5rem;
+    width: 0;
+    background-color: #11bcfd;
+    -webkit-transition: width .2s ease-in-out;
+    transition: width .2s ease-in-out;
+    position: relative;
+    top: .2rem
+}
+header .header-menu ul li a:hover:after,
+header .header-menu ul li:focus:after {
+    width: 100%
+}
+header .header-leader {
+    background-image: url(../img/header_bg.jpg);
+    background-size: cover;
+    min-height: 38rem
+}
+header .header-leader h1 {
+    padding: 11rem 0;
+    line-height: 5.4rem;
+    text-align: center
+}
+header .header-leader h1 span {
+    color: #b3e836
+}
+.catalog .catalog-card {
+    border: 1px solid #c39d41;
+    margin: 1.4rem 0;
+    padding: 1rem
+}
+.catalog .catalog-card .catalog-card__img {
+    float: left
+}
+.catalog .catalog-card .catalog-card-descr a h4 {
+    color: #029ed9;
+    text-decoration: underline
+}
+.catalog .catalog-card .catalog-card-descr a h4:focus,
+.catalog .catalog-card .catalog-card-descr a h4:hover {
+    text-decoration: none
+}
+.description .description-item p i,
+.testimonials .testimonials-item .textShow {
+    cursor: pointer;
+    text-decoration: underline
+}
+.catalog .catalog-card .catalog-card-descr p {
+    padding-top: 1rem
+}
+.catalog .catalog-card .catalog-card-descr .catalog-card-descr__measr {
+    font-size: 11px;
+    font-size: 1.1rem;
+    padding-top: 0
+}
+.catalog .catalog-card .catalog-card-descr .catalog-card-descr__quant {
+    color: #9f7f32;
+    font-size: 12px;
+    font-size: 1.2rem
+}
+.catalog .catalog-card .catalog-card__calc {
+    color: #9f7f32;
+    clear: left;
+    padding-top: 1rem
+}
+.catalog .catalog-card .catalog-card__calc span i {
+    font-size: 21px;
+    font-size: 2.1rem;
+    position: relative;
+    bottom: -.3rem
+}
+.catalog .catalog-card .catalog-card__calc .itemQuant {
+    background-color: #f4eddc;
+    border: none;
+    border-radius: .6rem;
+    -webkit-border-radius: .6rem;
+    -moz-border-radius: .6rem;
+    -ms-border-radius: .6rem;
+    -o-border-radius: .6rem;
+    -webkit-box-shadow: 0 1px 1px 1px rgba(0, 0, 0, .1) inset;
+    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, .1) inset;
+    padding-left: .4rem;
+    height: 3rem;
+    width: 5rem
+}
+.catalog .catalog-card .catalog-card__calc .itemQuant::-webkit-inner-spin-button {
+    height: 2rem;
+    opacity: 1
+}
+.catalog .catalog-card .catalog-card__btn {
+    background-image: url(../img/btn.png);
+    background-color: transparent;
+    background-size: auto;
+    margin-top: 1.2rem;
+    height: 3.6rem;
+    width: 13rem
+}
+.description .description-item {
+    text-align: center
+}
+.description .description-item img {
+    height: 7rem;
+    padding: 1rem 0
+}
+.description .description-item h3 {
+    padding: 1rem 0;
+    text-align: center
+}
+.description .description-item p {
+    padding-top: 14px;
+    text-align: left;
+    font-size: 12px;
+    font-size: 1.2rem
+}
+.description .description-item p span {
+    display: none
+}
+.manufacture .manufacture-item span {
+    color: #77b635;
+    font-size: 50px;
+    font-size: 5rem
+}
+.manufacture .manufacture-item span::after {
+    background-image: url(../img/circle.svg);
+    background-repeat: repeat-x;
+    content: "";
+    display: inline-block;
+    height: 8px;
+    width: 63.5%;
+    bottom: 1.3rem;
+    left: 1rem;
+    position: relative
+}
+.advantages .advantages-items .advantages-items__item,
+.testimonials .testimonials-item .textCut {
+    display: none
+}
+.manufacture .manufacture-item img {
+    margin-top: 2rem;
+    width: 16.8rem
+}
+.advantages .advantages-items {
+    background-image: url(../img/adv_bg_full.jpg);
+    background-size: cover;
+    height: 20rem;
+    padding: 2rem 0;
+    position: relative;
+    text-align: center
+}
+.advantages .advantages-items img {
+    right: 2rem;
+    height: auto;
+    margin-top: 0!important
+}
+.testimonials {
+    margin-bottom: 10rem
+}
+.testimonials .testimonials-item {
+    margin: 0 .2rem 4rem
+}
+.testimonials .testimonials-item p {
+    color: #828282
+}
+.testimonials .testimonials-item p:first-child::before {
+    content: "";
+    background: url(../img/cedils.png) top center no-repeat;
+    width: 40px;
+    height: 30px;
+    float: left;
+    margin-right: 2rem
+}
+.testimonials .testimonials-item .testimonials-item__text {
+    border: 1px solid transparent;
+    padding: 2rem
+}
+.testimonials .testimonials-item .testimonials-item__text:hover {
+    border: 1px solid #828282
+}
+.testimonials .testimonials-item .testimonials-item__text:hover::after {
+    background-image: url(../img/triangle.svg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    content: "";
+    position: absolute;
+    height: 2rem;
+    width: 2rem;
+    bottom: 20.3rem;
+    left: 18.5rem
+}
+.testimonials .testimonials-item .testimonials-item__ident {
+    padding-top: 4rem;
+    text-align: center
+}
+.testimonials .testimonials-item .testimonials-item__ident img {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    height: 7rem;
+    width: 7rem
+}
+.testimonials .testimonials-item .testimonials-item__ident p {
+    color: #545454
+}
+.consultation {
+    background-color: #029ed9;
+    padding: 5rem 0
+}
+.consultation p {
+    color: #fff
+}
+.consultation p:nth-child(1),
+.consultation p:nth-child(2) {
+    font-size: 24px;
+    font-size: 2.4rem
+}
+.consultation p:nth-child(1) strong,
+.consultation p:nth-child(2) strong {
+    color: #a7d832
+}
+.consultation p:nth-child(3) {
+    font-size: 18px;
+    font-size: 1.8rem;
+    float: left
+}
+.delivery {
+    margin-bottom: 6rem;
+    text-align: center
+}
+.delivery p span {
+    color: #8dba36
+}
+.delivery img {
+    margin: 2rem 0 6rem
+}
+.delivery .delivery-text {
+    text-align: left
+}
+.delivery .delivery-text h4 {
+    font-family: RobotoBold, Arial #000, Gadget, sans-serif;
+    font-size: 24px;
+    font-size: 2.4rem;
+    text-align: center
+}
+.delivery .delivery-text p {
+    font-size: 18px;
+    font-size: 1.8rem;
+    padding-top: 3rem
+}
+.calculation {
+    background-color: #029ed9;
+    padding: 5rem 0 4rem
+}
+.calculation p {
+    color: #fff;
+    font-size: 16px;
+    font-size: 1.6rem;
+    line-height: 1.4
+}
+.calculation p span {
+    display: block
+}
+.calculation p strong {
+    position: relative;
+    top: 2.5rem
+}
+.calculation .calculation__button {
+    font-size: 16px;
+    font-size: 1.6rem;
+    padding: 1rem;
+    position: relative;
+    top: 1.5rem
+}
+footer {
+    font-size: 12px;
+    font-size: 1.2rem;
+    padding-bottom: 3rem;
+    background-color: #f4eddc;
+    text-align: center
+}
+footer .footer__logo {
+    padding: 3rem 0 2rem
+}
+@media only screen and (max-width: 992px) {
+    section .description .description-item {
+        margin-bottom: 4rem
+    }
+    section .advantages .advantages-items .advantages-items-item img,
+    section .advantages .advantages-items img {
+        position: relative;
+        margin-top: 100px
+    }
+}
+@media only screen and (max-width: 768px) {
+    .description .description-item {
+        max-width: 30rem;
+        margin: 0 0 4rem 50%
+    }
+    .animated {
+        -webkit-transition-property: none!important;
+        transition-property: none!important;
+        -ms-transform: none!important;
+        -webkit-transform: none!important;
+        transform: none!important;
+        -webkit-animation: none!important;
+        animation: none!important
+    }
+}
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both
+}
+.animated.infinite {
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite
+}
+.animated.hinge {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s
+}
